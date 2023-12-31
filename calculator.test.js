@@ -1,6 +1,6 @@
 import { Calculator } from './calculator';
 
-const calculator = new Calculator()
+const calculator = new Calculator();
 
 test('Add 2 + 2', () => {
   expect(calculator.add(2, 2)).toBe(4);

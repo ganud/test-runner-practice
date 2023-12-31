@@ -22,5 +22,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+
   },
+  "plugins": ["only-warn"]
 };
